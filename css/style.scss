@@ -202,7 +202,14 @@ body {
       text-align: center;
 
       &-link {
+        display: block;
+        width: 100%;
+        height: 100%;
         color: #fff;
+
+        &:hover {
+          color: #fff;
+        }
 
         &_img {
           display: inline-block;
@@ -651,7 +658,7 @@ body {
   }
 
   .products {
-  min-width: 375px;
+    min-width: 375px;
 
     &__top {
       flex-direction: column;
@@ -720,7 +727,7 @@ body {
   }
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .brand {
     height: 368px;
 
@@ -753,7 +760,7 @@ body {
 
       &-img {
         height: 368px;
-        margin-left: -116px;
+        margin-left: -36px;
       }
     }
   }
@@ -809,33 +816,38 @@ body {
   }
 }
 
-@media (min-width: 767px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 993px) {
+  .navbar:hover .mega-box {
+    display: none;
+  }
+
   .brand__right_title-top {
     font-size: 34px;
   }
 
   .brand {
+    max-height: 368px;
+
     &__right {
-      padding-left: 50px;
+      padding-left: 0;
 
       &_title {
         height: 80px;
+        margin-top: 150px;
+
+        &_title-top {
+          font-size: 36px;
+        }
       }
     }
 
     &__left-img {
-      margin-left: -68%;
+      margin-left: -35%;
+      height: 368px;
     }
 
-    &__right {
-      &_title-top {
-        font-size: 36px;
-      }
-
-
-      &_title-bottom {
-        font-size: 20px;
-      }
+    &_title-bottom {
+      font-size: 20px;
     }
   }
 
@@ -848,12 +860,16 @@ body {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1024px) {
+@media (min-width: 994px) and (max-width: 1024px) {
+  .navbar:hover .mega-box {
+    display: none;
+  }
+
   .brand__left-img {
     margin-left: -235px;
   }
 
-  .brand__right_title-top  {
+  .brand__right_title-top {
     font-size: 32px;
   }
 
