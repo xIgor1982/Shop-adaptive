@@ -608,6 +608,10 @@ body {
   .subscribe .join .join-wrap .join-form .join-button {
     right: 14px;
   }
+
+  .products_item-text.products_item-accessories-text {
+    top: 25%;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .brand {
@@ -681,6 +685,10 @@ body {
   .navbar:hover .mega-box {
     display: none;
   }
+
+  .products_item-text.products_item-accessories-text {
+    top: 25%;
+  }
 }
 @media (min-width: 768px) and (max-width: 993px) {
   .navbar:hover .mega-box {
@@ -689,6 +697,11 @@ body {
 
   .brand__right_title-top {
     font-size: 34px;
+    line-height: 50px;
+  }
+
+  .brand__right_title-bottom {
+    font-size: 24px;
   }
 
   .brand {
@@ -708,9 +721,6 @@ body {
     margin-left: -35%;
     height: 368px;
   }
-  .brand_title-bottom {
-    font-size: 20px;
-  }
 
   .products_item-text {
     top: 30%;
@@ -718,6 +728,14 @@ body {
 
   .products__bottom .products_item-text {
     top: 25%;
+  }
+
+  .subscribe .reviews {
+    padding: 123px 0 40px 0;
+  }
+
+  .products_item-text.products_item-accessories-text {
+    top: 25% !important;
   }
 }
 @media (min-width: 994px) and (max-width: 1024px) {
