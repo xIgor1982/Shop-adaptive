@@ -418,7 +418,7 @@ body {
   background: #fff;
   display: none;
   top: 58px;
-  right: -220px;
+  right: 0;
 }
 .mega-box_wrap {
   position: relative;
